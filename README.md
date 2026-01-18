@@ -36,6 +36,7 @@ pip install requests
 Edit `cloudflare-ddns.py` and replace:
 - `YOUR_API_TOKEN_HERE` with your API token
 - `YOUR_ZONE_ID_HERE` with your zone ID
+- `YOUR_DOMAIN_NAME_HERE` with your domain name or sub domain
 
 ### 4. Make the Script Executable (Linux/Mac)
 
