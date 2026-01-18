@@ -20,13 +20,13 @@ pip install requests
 5. Set permissions:
    - Zone > DNS > Edit
 6. Set Zone Resources:
-   - Include > Specific zone > alanberger.me.uk
+   - Include > Specific zone > yourdomain
 7. Click "Continue to summary" and "Create Token"
 8. **Copy the token** (you won't see it again!)
 
 #### Zone ID
 1. Go to your Cloudflare dashboard
-2. Click on your domain (alanberger.me.uk)
+2. Click on your domain
 3. Scroll down on the Overview page
 4. Find "Zone ID" in the right sidebar under "API"
 5. Copy the Zone ID
@@ -52,16 +52,16 @@ python3 cloudflare-ddns.py
 
 You should see output like:
 ```
-Cloudflare Dynamic DNS Updater for glados.alanberger.me.uk
+Cloudflare Dynamic DNS Updater for example.org
 --------------------------------------------------
 Current public IP: 203.0.113.45
 DNS record doesn't exist, creating...
-✓ Created DNS record: glados.alanberger.me.uk -> 203.0.113.45
+✓ Created DNS record: example.org -> 203.0.113.45
 ```
 
 Or if the record exists:
 ```
-Cloudflare Dynamic DNS Updater for glados.alanberger.me.uk
+Cloudflare Dynamic DNS Updater for example.org
 --------------------------------------------------
 Current public IP: 203.0.113.45
 Current DNS IP: 203.0.113.45
